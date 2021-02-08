@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Galería | Paginas Amarillas</title>
+	<!--Css-->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+	<!--Css Ejemplo-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+</head>
+<body>
+<div class="cont-g">
+	<h2>Ejemplo Galería</h2>
+	<ul>
+		<!--Img 1-->
+		<li>
+			<a class="fancybox" href="images/1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/mini/1_s.jpg" alt="" /></a>
+			<div class="cont-d">
+				<h4>I'm a title</h4>
+				<p>I'm a description</p>
+			</div>
+		</li>
+		<!--Img 2-->
+		<li>
+			<a class="fancybox" href="images/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="images/mini/2_s.jpg" alt="" /></a>
+			<div class="cont-d">
+				<h4>I'm a title</h4>
+				<p>I'm a description</p>
+			</div>
+		</li>
+		<!--Img 3-->
+		<li>
+			<a class="fancybox" href="images/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="images/mini/3_s.jpg" alt="" /></a>
+			<div class="cont-d">
+				<h4>I'm a title</h4>
+				<p>I'm a description</p>
+			</div>
+		</li>
+		<!--Img 4-->
+		<li>
+			<a class="fancybox" href="images/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="images/mini/4_s.jpg" alt="" /></a>
+			<div class="cont-d">
+				<h4>I'm a title</h4>
+				<p>I'm a description</p>
+			</div>
+		</li>
+	</ul>
+</div>
+<p class="copy"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Esta <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">obra</span> cuyo autor es <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Eudys Cruz</span> está bajo una <br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licencia de Reconocimiento 4.0 Internacional de Creative Commons</a></p>
+</body>
+<!--Script-->
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
+</html>

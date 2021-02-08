@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+.cont-g {
+  width: 628px;
+  float: left;
+  margin: 10px 0 0 45px;
+}
+
+.copy {
+	text-align: center;
+	font-size: 11px;
+	color: #666666;
+	margin: 100px 0 0 0;
+}
+.copy a {
+	color: #b77231;
+	text-decoration: none;
+}
+/*----Etiquetas----*/
+ul.galeria {
+	margin: 0 !important;
+	padding: 0;
+  position: relative;
+  z-index: 10;
+}
+ul.galeria>li {
+	float: left;
+	list-style: none;
+	background: #ffffff;
+	  border: 5px solid #1E406E;
+  margin: 0 3px 3px 0;
+}
+ul.galeria>li>a>img {
+	transition: opacity 0.4s ease 0s;
+	-webkit-transition: opacity 0.4s ease 0s;
+	  height: 101px;
+  float: left;
+  margin: 0;
+}
+ul.galeria>li>a>img:hover {
+	opacity: 0.7;
+	transition: opacity 0.4s ease 0s;
+	-webkit-transition: opacity 0.4s ease 0s;
+}
+ul.galeria>li>.cont-d {
+	padding: 3px 3px 9px 3px;
+	width: 144px;
+	text-align: center;
+}
+ul.galeria>li>.cont-d>h4 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	font-size: 16px;
+	color: #b1250a;
+	line-height: 17px;
+}
+ul.galeria>li>.cont-d>p {
+	margin: 0;
+	font-size: 13px;
+	color: #2d2d2d;
+}
